@@ -29,8 +29,8 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #section-coming-soon{ background:none; position:absolute; min-height:100%; width:100%;z-index:1;}
 #section-describe{background:#202020;}
 #section-download{background:url(../images/background/bg-9.jpg) top fixed;}
-#bg-coming-soon-page{background:url(../images/background/bs-bg.jpg) top fixed; position:fixed; min-height:100%; width:100%;}
-#section-about-us-2{background:#18191b; height:100%;}
+#bg-coming-soon-page{position:fixed; min-height:100%; width:100%;}
+#section-about-us-2{background:#101010; height:100%;}
 .de_light #section-about-us-2{background:none;}
 #section-welcome{background:url(../images/background/bg-4.jpg) top fixed;}
 #section-welcome-2{background:url(../images/background/bg-6.jpg) top fixed;}
