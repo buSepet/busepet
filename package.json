@@ -1,0 +1,29 @@
+{
+  "name": "busepet",
+  "version": "1.0.0",
+  "description": "busepet",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bu",
+    "sepet"
+  ],
+  "author": "omerkaraca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-validator": "^5.0.1",
+    "nodemailer": "^4.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buSepet/comingsoon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buSepet/comingsoon/issues"
+  },
+  "homepage": "https://github.com/buSepet/comingsoon#readme"
+}
