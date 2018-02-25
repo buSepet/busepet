@@ -25,9 +25,7 @@ app.use("/images-slider", express.static(__dirname + '/images-slider'))
 app.use("/js", express.static(__dirname + '/js'))
 app.use("/rs-plugin", express.static(__dirname + '/rs-plugin'))
 
-//ROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTESROUTES
-app.get('/', (req, res) => res.send('Hello Detch , welcome to here !!'))
-app.get("/index", function (req, res) {
+app.get("/", function (req, res) {
   res.sendFile(viewpath + "/index-coming-soon.html");
 });
 
