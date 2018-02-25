@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+const PORT = process.env.PORT || 3000
+
 
 const { check, validationResult } = require('express-validator/check');
 const { matchedData, sanitize } = require('express-validator/filter');
@@ -52,4 +54,4 @@ app.post('/sendEmail', function (req, res) {
 });
 //Email Sender Route
 
-app.listen(3001, () => console.log('Example app listening on port 3000!'))
+app.listen(PORT, () => console.log('created!'))
