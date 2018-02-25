@@ -11,7 +11,7 @@ var smtpTransport = nodemailer.createTransport({
   secure: true,
   auth: {
     user: "bilgi@busepet.com",
-    pass: "10-AlayciKus"
+    pass: ""
   }
 });
 var viewpath = __dirname + '/views/';
